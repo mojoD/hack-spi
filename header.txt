@@ -1,0 +1,8 @@
+time sig 4/4
+BPM: 120
+Tempo: 499968  msecs per qnote
+key sig C major
+BPM: 116
+Tempo: 517056  msecs per qnote
+BPM: 108
+Tempo: 555456  msecs per qnote
