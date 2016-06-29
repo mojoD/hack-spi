@@ -1,0 +1,58 @@
+Releases and Plans
+
+Released: 
+
+StandAlone MidiLoop Creator:
+
+midi2SonicPi5.rb - First release
+  - Read Midi files
+  - Create Header file with Overall Midi Info
+    - PPQN
+    - Time Signature
+    - Key Signature
+  - Create MidiLoop Files for Each Track in Instrument (non-Drum) Midi File
+    - Controller Info for Pan, Volume
+    - Program/Patch Change Information
+    - Note Information (Channel, TimefromStart, DeltaTime, Duration, NoteToPlay, Velocity
+  - Create MidiLoop Files for Each Drum in the Drum Kit and put files in a Drums Folder
+    - Note Information (Channel, TimefromStart, DeltaTime, Duration, NoteToPlay, Velocity
+
+
+Sonic Pi Based Ruby:
+MidiLoopV0 - Proof of Concept 
+ - Bring in Midiloop file 
+ - Read into MidiLoop Array
+ - run multiple live loops that run samples for drums and synths for instruments
+
+MidiLoopV1 - MidiPlayer 
+  - Bring in Midi Folder that has all the MidiLoops associated with a converted Midifile (instruments and drums)
+  - Drums use Sample Player
+  - All other instruments use Synth Player
+
+
+Planned Features:
+
+Sonic Pi Based Ruby:
+MidiLoopV2 - MidiPlayer with GM Patches
+  - Read Tempo, Time Signature, PPQN and Key Signature in from MidiLoop Header file
+  - Populate Tempo from Header file
+  - Use Time Signature and PPQN to change Sleep calculation for different Time Signatures
+  - Add Velocity into Sample Player
+  - Add Velocity into Synth Player
+  - Read Controller Volume information from Midiloop to establish initial volume settings for each channel
+  - Read in Program/Patch Selection in from Midiloop
+  - Create Mapping function (def) that takes read in Patch/Program Selections from Midiloop and translate the GM Patch to Sonic Pi Synth or Sample
+  - Create a Sample based instrument using piano note samples
+  - Change MidiSequencer portion of code to add parameter identifying if the Midiloop is a sample or sysnth
+  - Change code so that call of Synth or Sample Player is based on new parameter instead of channel
+  - Handle changes of Program/Patch after track starts
+  - Add GM Patch based Samples and Synths
+  - Assign these GM Patches as default and allow override using Sequencer    
+
+MidiLoopV3 - Sonic Pi based MidiPlayer Calls midi2SonicPi
+  - Create MidiLoop files using calls from Sonic Pi Program
+  - Add Features to MidiLoop Sample and Synth Player 
+    - Slice (from and to)
+      - Measure, Beats, Ticks format
+    - Choose
+    - Shuffle 
