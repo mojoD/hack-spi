@@ -52,20 +52,34 @@ The next part of the midiloops approach is a to play these midiloops with Sonic 
 
 sequencer.rb was designed to be used as a simple midi player where the musician could control what is played by changing settings in the mixer portion of the code which looks like: 
 
-mMixer = [\ 
+mMixer = [\
+
 1,"sample",0,1,"Bright Acoustic Piano",1.4,"play","mono","novelocity","NoEffects",\ 
+
 2,"sample",0,33,"Electric Bass (finger)",1.6,"play","mono","novelocity","NoEffects",\ 
+
 3,"sample",0,25,"Acoustic Guitar (steel)",1.2,"play","mono","novelocity","NoEffects",\
+
 4,"sample",0,73,"Flute",1.8,"play","mono","novelocity","NoEffects",\
+
 5,"sample",0,54,"Synth Voice",1.6,"play","mono","novelocity","NoEffects",\
+
 6,"sample",0,54,"Synth Voice",1.6,"play","mono","novelocity","NoEffects",\
+
 7,"sample",0,26,"Electric Guitar (jazz)",1.8,"play","mono","novelocity","NoEffects",\
+
 8,"sample",0,48,"String Ensemble 1",1.3,"play","mono","novelocity","NoEffects",\
+
 9,"sample",0,49,"String Ensemble 2",1.0,"play","mono","novelocity","NoEffects",\
+
 10,"sample",128,0,"Drum Kit",1.4,"play","mono","novelocity","NoEffects",\
+
 11,"sample",0,11,"Vibraphone",1.0,"play","mono","novelocity","NoEffects",\
+
 12,"sample",0,31,"Guitar harmonics",1.1,"play","mono","novelocity","NoEffects"\
+
 ]
+
 
 The format of the mixer line is:  track #, sample or synth to play, bank, program, track name, amp, play/mute, mono/stereo, velocity aware, effects
 
