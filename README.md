@@ -52,9 +52,9 @@ The next part of the midiloops approach is a to play these midiloops with Sonic 
 
 sequencer.rb was designed to be used as a simple midi player where the musician could control what is played by changing settings in the mixer portion of the code which looks like: 
 
-mMixer = [\
-1,"sample",0,1,"Bright Acoustic Piano",1.4,"play","mono","novelocity","NoEffects",\
-2,"sample",0,33,"Electric Bass (finger)",1.6,"play","mono","novelocity","NoEffects",\
+mMixer = [\ 
+1,"sample",0,1,"Bright Acoustic Piano",1.4,"play","mono","novelocity","NoEffects",\ 
+2,"sample",0,33,"Electric Bass (finger)",1.6,"play","mono","novelocity","NoEffects",\ 
 3,"sample",0,25,"Acoustic Guitar (steel)",1.2,"play","mono","novelocity","NoEffects",\
 4,"sample",0,73,"Flute",1.8,"play","mono","novelocity","NoEffects",\
 5,"sample",0,54,"Synth Voice",1.6,"play","mono","novelocity","NoEffects",\
