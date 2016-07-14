@@ -51,6 +51,7 @@ The midiloop Files have the following information in them.
 The next part of the midiloops approach is a to play these midiloops with Sonic Pi.  This is done using the two ruby programs (sequencer.rb & looper.rb) that were generated when running midi2SonicPi0.rb.  The basic approach is to read the midiloop into an array/list in Sonic Pi and then use live loops to play the note, apply note velocity as attack, use start time to find the first sleep value, and use note duration in calculating release time and sleep values.  The appropriate midi instrument to use for each midi loop is controlled by the midi mixer that is generated for both sequence.rb and looper.rb.
 
 sequencer.rb was designed to be used as a simple midi player where the musician could control what is played by changing settings in the mixer portion of the code which looks like: 
+
 mMixer = [\
 1,"sample",0,1,"Bright Acoustic Piano",1.4,"play","mono","novelocity","NoEffects",\
 2,"sample",0,33,"Electric Bass (finger)",1.6,"play","mono","novelocity","NoEffects",\
@@ -65,6 +66,7 @@ mMixer = [\
 11,"sample",0,11,"Vibraphone",1.0,"play","mono","novelocity","NoEffects",\
 12,"sample",0,31,"Guitar harmonics",1.1,"play","mono","novelocity","NoEffects"\
 ]
+
 The format of the mixer line is:  track #, sample or synth to play, bank, program, track name, amp, play/mute, mono/stereo, velocity aware, effects
 
 
