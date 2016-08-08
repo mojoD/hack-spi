@@ -1,7 +1,7 @@
-# midiloops
+# The Midiot and midiloops
 **Goal:**  Be able to seamlessly translate Midi files for use in Sonic Pi that will utilize samples derived from a Soundfont file. 
 
-The concept behind midiloops is to first take a Soundfont file and run a program (sf2Sonicpi0.rb) to extract it so that it can be consumed by the sample command in Sonic Pi that uses the SuperCollider soft synth.  With the soundfont samples available to Sonic Pi then you take midifiles and run them through a program (midi2SonicPi0.rb) that creates a set of files that are called midiloops that are played in Sonic Pi and also generates ruby code for Sonic Pi that act as a Sequencer (sequencer.rb) or Loop Player (looper.rb).  These ruby files are then loaded into Sonic Pi to play the midisong that was converted to the .mloop extension files.  
+The concept behind *"the Midiot"* is to first take a Soundfont file and run a program (sf2Sonicpi0.rb) to extract it so that it can be consumed by the sample command in Sonic Pi that uses the SuperCollider soft synth.  With the soundfont samples available to Sonic Pi then you take midifiles and run them through a program (midi2SonicPi0.rb) that creates a set of files that are called midiloops that are played in Sonic Pi and also generates ruby code for Sonic Pi that act as a Sequencer (sequencer.rb) or Loop Player (looper.rb).  These ruby files are then loaded into Sonic Pi to play the midisong that was converted to the .mloop extension files.  
 
 The usage for the sf2SonicPi0.rb program is sf2SonicPi0.rb [input SoundfontFile] [output directory].
 The usage for the midi2SonicPi0.rb program is midi2SonicPi0.rb [input midifile] [output directory].
