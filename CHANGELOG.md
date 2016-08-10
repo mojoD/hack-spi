@@ -13,10 +13,12 @@ The major components of Release 1 are:
 + sf2sonicpi0.rb - program to convert soundfont files to .pisf files that work in Sonic Pi
 + midi2sonicpi0.rb - program to convert midi files to midiloop (.mloop) files and generate Ruby code to play them in Sonic Pi
 + MidiotBaseProgram0.rb - ruby code that runs in Sonic Pi to implement the Midiot.
-++ Play soundfont sample based instruments that can play any note for any duration for up to 127 different instruments
-++ Play midiloops using the new soundfont sample based instruments 
-++ Play midiloops using the Sonic Pi synths 
-++ Play portions of midiloops by slicing the input and looping the sliced result
-++ Transpose the midiloop 
+
+MidiotBaseProgram Functionality:
++ Play soundfont sample based instruments that can play any note for any duration for up to 127 different instruments within Live-loops
++ Play midiloops using the new soundfont sample based instruments 
++ Play midiloops using the Sonic Pi synths 
++ Play portions of midiloops by slicing the input and looping the sliced result
++ Transpose the midiloop 
 
 
