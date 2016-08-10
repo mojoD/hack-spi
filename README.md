@@ -8,4 +8,4 @@
 ## Documentation
 There is a Wiki that is attached to this project in GitHub that contains user manuals and technical documentation.  Also, a youtube playlist is available with tutorials showing how to use Midiot as a Midi Song Player or integrate it into your **"Live Coding"** performances.
 
-**Link to Introduction Youtube Video: ** https://youtu.be/tT4BxVEV6k0
+**Link to Introduction Youtube Video:**   https://youtu.be/tT4BxVEV6k0
