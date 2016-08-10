@@ -1,3 +1,5 @@
 Link to Dropbox with soundfont file:
 
-https://www.dropbox.com/s/qwokxobqmdcb355/32MbGMStereo.sf2?dl=0
+Raw soundfont file:  https://www.dropbox.com/s/qwokxobqmdcb355/32MbGMStereo.sf2?dl=0
+
+Conveted soundfont file ready for Sonic Pi:  https://www.dropbox.com/sh/4ws4o6omrbazn0r/AAC_UlC8wWJdkFjLHjT7Qhz6a?dl=0
