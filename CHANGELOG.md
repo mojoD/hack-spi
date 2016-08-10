@@ -11,7 +11,7 @@ This is the first public release of the software.  As such, it is in what I woul
 
 The major components of Release 1 are:
 + sf2sonicpi0.rb - program to convert soundfont files to .pisf files that work in Sonic Pi
-+ midi2sonicpi0.rb - program to convert midi files to midiloop (.mloop) files and generate Ruby code to play them in Sonic Pi
++ midi2sonicpi0.rb - program to convert midi files to midiloop (.mloop) files & generate Ruby code to play them in Sonic Pi
 + MidiotBaseProgram0.rb - ruby code that runs in Sonic Pi to implement the Midiot.
 
 MidiotBaseProgram Functionality:
