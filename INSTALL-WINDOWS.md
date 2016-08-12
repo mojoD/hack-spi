@@ -49,5 +49,10 @@ cd c:/
 gem install midilib
 
 
+![Install](https://github.com/mojoD/midiloops/blob/master/zzz%20-%20sonicpiload4.png)
+
+
+
+
 
 
