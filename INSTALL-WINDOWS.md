@@ -26,6 +26,8 @@ Now, click on the Download MSI Installer button and then run the program.
 
 
 
-Load required ruby used in Midiot related programs:
+Load required ruby used in Midiot related programs by goint to http://rubyinstaller.org/ and clicking the download button
 
 
+
+![Install](https://github.com/mojoD/midiloops/blob/master/zzz-%20sonicpiload2.png)
