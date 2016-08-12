@@ -6,6 +6,12 @@ Go To http://sonic-pi.net/ and choose to install windows by selecting the window
 
 ![Install](https://github.com/mojoD/midiloops/blob/master/zzz%20-%20sonicpiload1.png)
 
+
+
+
+
+
+
 Now, click on the Download MSI Installer button and then run the program.
 
 ![Install](https://github.com/mojoD/midiloops/blob/master/zzz-%20sonicpiload2.png)
