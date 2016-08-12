@@ -42,8 +42,10 @@ Now Click on Version 2.3.1 and run the installer.
 
 
 Install one of the ruby helper libraries used by going to the run command and typing:
-Get into the command prompt end enter these two commands
+Get into the command prompt end enter these two commands:
+
 cd c:/
+
 gem install midilib
 
 
