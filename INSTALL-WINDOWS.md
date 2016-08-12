@@ -17,7 +17,16 @@ Now, click on the Download MSI Installer button and then run the program.
 
 
 
-![Install](https://github.com/mojoD/midiloops/blob/master/zzz-%20sonicpiload2.png)
+![Install](https://github.com/mojoD/midiloops/blob/master/zzz%20-%20sonicpiload3.png)
+
+
+
+
+
+
+Now Click on Version 2.3.1
+
+![Install](https://github.com/mojoD/midiloops/blob/master/zzz%20-%20sonicpiload3.png)
 
 
 
