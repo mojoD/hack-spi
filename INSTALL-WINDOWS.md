@@ -12,9 +12,19 @@ Go To http://sonic-pi.net/ and choose to install windows by selecting the window
 
 
 
+
 Now, click on the Download MSI Installer button and then run the program.
 
+
+
 ![Install](https://github.com/mojoD/midiloops/blob/master/zzz-%20sonicpiload2.png)
+
+
+
+
+
+
+
 
 Load required ruby used in Midiot related programs:
 
