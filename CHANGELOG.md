@@ -5,9 +5,9 @@
 ## Version 1.0 - 'Arduous Amore'
 + Sunday 12th, August, 2016
  
-_ "A Labor of Love"
+**"A Labor of Love"**
 
-This is the first public release of the software.  As such, it is in what I would consider a Alpha Release.  It doesn't have any error checking to speak of.  The documentation is in the attached Wiki and it is not linked within the Sonic Pi documentation system.
+This is the first public release of the software.  As such, it is in what I would consider an *Alpha Release*.  It doesn't have any error checking to speak of.  The documentation is in the attached Wiki and it is not linked within the Sonic Pi documentation system.
 
 The major components of Release 1 are:
 + sf2sonicpi0.rb - program to convert soundfont files to .pisf files that work in Sonic Pi
