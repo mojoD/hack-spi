@@ -10,4 +10,4 @@ There is a Wiki that is attached to this project in GitHub that contains user ma
 
 **Go to the Wiki:**  https://github.com/mojoD/midiloops/wiki
 
-**Link to Introduction Youtube Video:**   https://youtu.be/tT4BxVEV6k0
+**Link to Introduction Youtube Video Playlist:**   https://www.youtube.com/playlist?list=PLYuaqec79vK7t49cBIiNMy7XIjdaytAnZ
