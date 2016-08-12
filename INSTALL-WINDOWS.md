@@ -35,8 +35,17 @@ Load required ruby used in Midiot related programs by goint to http://rubyinstal
 
 
 
-Now Click on Version 2.3.1
+Now Click on Version 2.3.1 and run the installer.
 
 
 ![Install](https://github.com/mojoD/midiloops/blob/master/zzz%20-%20sonicpiload4.png)
+
+
+Install one of the ruby helper libraries used by going to the run command and typing:
+Get into the command prompt end enter these two commands
+cd c:/
+gem install midilib
+
+
+
 
