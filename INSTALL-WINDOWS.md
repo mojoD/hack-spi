@@ -1,8 +1,8 @@
-## Instructions for Installing Midiot in Windows
+### Instructions for Installing Midiot in Windows
 
-1) Install Sonic Pi 
+## 1) Install Sonic Pi 
 
-Go To http://sonic-pi.net/ and choose to install windows by selecting the windows button:
+# Go To http://sonic-pi.net/ and choose to install windows by selecting the windows button:
 
 ![Install](https://github.com/mojoD/midiloops/blob/master/zzz%20-%20sonicpiload1.png)
 
