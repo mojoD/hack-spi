@@ -5,9 +5,9 @@
 ### Go To http://sonic-pi.net/ and choose to install windows by selecting the windows button:
 
 ![Install](https://github.com/mojoD/midiloops/blob/master/zzz%20-%20sonicpiload1.png)
-
-
-
+.
+.
+.
 
 
 
