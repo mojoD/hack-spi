@@ -50,7 +50,7 @@
 ![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%208.PNG)
 <br><br>
 
-Now find the directory and open the MidiloopV1 directory.
+###Now find the directory and open the MidiloopV1 directory.
 ![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%209.PNG)
 <br><br>
 
