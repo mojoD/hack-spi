@@ -38,7 +38,7 @@
 ###Select the AllTracks.rb program and open it
 ![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%2018a.png)
 <br><br>
-###This will load Buffer 1 with the Minnie ruby program that can play the midi song.  Click run to hear it.
+###This will load Buffer 1 with the Minnie ruby program that plays the midi song.  Click run to hear it
 ![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%2019.png)
 <br><br>
 ###If it falls behind with an error message.  Just give it a second and run it again.  It will have caught up.
