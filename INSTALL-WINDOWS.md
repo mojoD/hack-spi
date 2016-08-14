@@ -23,15 +23,24 @@
 ## 2) Install The Midiot for Sonic Pi
 ###Once Sonic Pi has loaded, download The Midiot at: https://www.dropbox.com/s/n5c8tmdzefxsptf/MidiloopV1.exe?dl=0
 
+![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%201.png)
+<br><br>
+
+
 ###This will download the MidiotV1.zip file.  Extract the contents into a folder in your User directory which you will have default access to by default.  For me the folder is C:\Users\Michael Sutton\  It should look like this once it is downloaded and extracted:
 <br><br>
 ![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%20midiloopzip.png)
 
 <br><br>
-### Run the batch file named RunOneTime.bat.  This will install some behind the scenes ruby code (gem).
+### Run the batch file named RunOneTime.bat to complete the install.  
+
+###1) This will first install some behind the scenes ruby code (gem).
 
 ![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%20sonicpiload5.png)
 <br><br>
+
+
+
 
 ### This should have installed everything and you should ready to go play with 
 #The Midiot for Sonic Pi#
