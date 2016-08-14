@@ -32,7 +32,7 @@
 ###Now select Buffer 1 at the bottom of the screen.
 ![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%2016.png)
 <br><br>
-###Go to the Minnie directory that you just created using midi2sonicpi.rb and double click it to open it.
+###Go to the Minnie directory you just created using midi2sonicpi.rb and double click it to open it.
 ![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%2017a.png)
 <br><br>
 ###Select the AllTracks.rb program and open it
