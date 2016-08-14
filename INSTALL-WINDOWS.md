@@ -26,45 +26,38 @@
 
 ![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%20P1.PNG)
 <br><br>
-
+###If you don't have a dropbox account, just click the "No thanks, continue to download" at the bottom of the dialog box.
 ![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%202.PNG)
 <br><br>
 
+###Next windows will warn you against downloading an .exe file.  Click Run.
 ![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%203.PNG)
 <br><br>
 
+###Windows will continue to try and protect you by putting up another warning.  Click on the "More info" 
 ![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%204.PNG)
 <br><br>
 
+###Windows hates letting you install non-Windows stuff.  Select the "Run Anyway" button.
 ![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%206.PNG)
 <br><br>
 
+###It will download and run it.  A dialog box will pop up for you to identify where you want it to go.
 ![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%207.PNG)
 <br><br>
 
+###The best place to put it is in your user home directory, so, just delete the Downloads portion and hit Extract.
 ![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%208.PNG)
 <br><br>
 
+Now find the directory and open the MidiloopV1 directory.
 ![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%209.PNG)
 <br><br>
 
+
+###This will be MidiloopV1 directory.  Select the RunOneTime batch file to complete the installation.
 ![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%2010.PNG)
 <br><br>
-
-###This will download the MidiotV1.zip file.  Extract the contents into a folder in your User directory which you will have default access to by default.  For me the folder is C:\Users\Michael Sutton\  It should look like this once it is downloaded and extracted:
-<br><br>
-![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%20midiloopzip.png)
-
-<br><br>
-### Run the batch file named RunOneTime.bat to complete the install.  
-
-###1) This will first install some behind the scenes ruby code (gem).
-
-![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%20sonicpiload5.png)
-<br><br>
-
-
-
 
 ### This should have installed everything and you should ready to go play with 
 #The Midiot for Sonic Pi#
