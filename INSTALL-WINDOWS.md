@@ -23,7 +23,7 @@
 ## 2) Install The Midiot for Sonic Pi
 ###Once Sonic Pi has loaded, download The Midiot at: https://www.dropbox.com/s/n5c8tmdzefxsptf/MidiloopV1.exe?dl=0
 
-![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%20P1.PNG)
+![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%202.PNG)
 <br><br>
 
 
