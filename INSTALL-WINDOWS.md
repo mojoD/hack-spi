@@ -21,7 +21,7 @@
 <br><br>
 
 ## 2) Install The Midiot for Sonic Pi
-###Once Sonic Pi has loaded, download The Midiot at: https://www.dropbox.com/s/zy63pu2i7529oz4/MidiloopV1.zip?dl=0
+###Once Sonic Pi has loaded, download The Midiot at: https://www.dropbox.com/s/isquzv5fsemt59o/MidiloopV1.exe?dl=0
 
 ###This will download the MidiotV1.zip file.  Extract the contents into a folder in your User directory which you will have default access to by default.  For me the folder is C:\Users\Michael Sutton\  It should look like this once it is downloaded and extracted:
 <br><br>
