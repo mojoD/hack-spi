@@ -34,7 +34,6 @@
 <br><br>
 
 ### This should have installed everything and you should ready to go play with 
-<br><br>
 #The Midiot for Sonic Pi#
 
 
