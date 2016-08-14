@@ -20,34 +20,14 @@
 ![Install](https://github.com/mojoD/midiloops/blob/master/zzz-%20sonicpiload2.png)
 <br><br>
 
+###Once Sonic Pi has loaded, download The Midiot at: https://www.dropbox.com/s/zy63pu2i7529oz4/MidiloopV1.zip?dl=0
 
-
-
-
-###Load required ruby used in Midiot related programs by goint to http://rubyinstaller.org/ and clicking the download button
-<br><br>
-
-![Install](https://github.com/mojoD/midiloops/blob/master/zzz%20-%20sonicpiload3.png)
-
-<br><br>
+This will download the MidiotV1.zip file.  Extract the contents into a folder in your User directory which you will have default access.  For me the folder is C:\Users\Michael Sutton\  It should look like this once it is downloaded and extracted:
 
 
 
 
 
-
-###Now Click on Version 2.3.1 and run the installer.
-<br><br>
-
-![Install](https://github.com/mojoD/midiloops/blob/master/zzz%20-%20sonicpiload4.png)
-<br><br>
-
-###Install one of the ruby helper libraries used by going to the run command and typing:
-###Get into the command prompt end enter these two commands:
-
-###cd c:/
-
-###gem install midilib
 
 <br><br>
 ![Install](https://github.com/mojoD/midiloops/blob/master/zzz%20-%20sonicpiload5.png)
