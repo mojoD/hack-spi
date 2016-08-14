@@ -22,10 +22,34 @@
 
 ## 2) Install The Midiot for Sonic Pi
 ###Once Sonic Pi has loaded, download The Midiot at: https://www.dropbox.com/s/n5c8tmdzefxsptf/MidiloopV1.exe?dl=0
+###The first you screen is from drop box.  Click on the download button:
+
+![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%20P1.PNG)
+<br><br>
 
 ![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%202.PNG)
 <br><br>
 
+![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%203.PNG)
+<br><br>
+
+![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%204.PNG)
+<br><br>
+
+![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%206.PNG)
+<br><br>
+
+![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%207.PNG)
+<br><br>
+
+![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%208.PNG)
+<br><br>
+
+![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%209.PNG)
+<br><br>
+
+![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%2010.PNG)
+<br><br>
 
 ###This will download the MidiotV1.zip file.  Extract the contents into a folder in your User directory which you will have default access to by default.  For me the folder is C:\Users\Michael Sutton\  It should look like this once it is downloaded and extracted:
 <br><br>
