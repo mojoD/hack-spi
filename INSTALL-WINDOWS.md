@@ -32,7 +32,9 @@
 ![Install](https://github.com/mojoD/midiloops/blob/master/zzz%20-%20sonicpiload5.png)
 <br><br>
 
-### This should have installed everything and you should ready to go play with **The Midiot for Sonic Pi**
+### This should have installed everything and you should ready to go play with 
+<br><br>
+#The Midiot for Sonic Pi#
 
 
 
