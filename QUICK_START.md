@@ -32,7 +32,21 @@
 ##Now select Buffer 1 at the bottom of the screen.
 ![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%2016.png)
 <br><br>
-##Go to the Miine
+##Go to the Minnie directory that you just created using midi2sonicpi.rb and double click it to open it.
+![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%2017a.png)
+<br><br>
+##Select the AllTracks.rb program and open it
+![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%2018a.png)
+<br><br>
+##This will load Buffer 1 with the Minnie ruby program that can play the midi song.  Click run to hear it.
+![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%2019.png)
+<br><br>
+##If it falls behind with a message.  Just give it a second and run it again.
+##You now can repeat this process and bring in other midi files to play with.
+<br><br>
+##Go to the YouTube Channel to say demos of using The Midiot for Sonic Pi:  https://www.youtube.com/playlist?list=PLYuaqec79vK7t49cBIiNMy7XIjdaytAnZ
+<br>
+##Look at the Wiki for some detailed documentation: https://github.com/mojoD/midiloops/wiki
 
 
 
