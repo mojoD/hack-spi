@@ -41,7 +41,7 @@
 ###This will load Buffer 1 with the Minnie ruby program that plays the midi song.  Click run to hear it
 ![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%2019.png)
 <br><br>
-###If it falls behind with an error message.  Just give it a second and run it again.  It will have caught up.
+###If it falls behind with an error message. Give it a second and run it again. It will have caught up.
 <br>
 ##You now can repeat this process and bring in other midi files to play with.
 <br>
