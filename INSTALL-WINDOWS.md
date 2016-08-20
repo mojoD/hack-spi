@@ -19,7 +19,18 @@
 ![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz-%20sonicpiload2.png)
 <br><br>
 
-## 2) Install The Midiot for Sonic Pi
+## 2) Install Ruby if you don't already have it
+### Go to http://rubyinstaller.org/  and select Download
+
+![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz-%20sonicpiload3.png)
+<br><br>
+
+### Select Ruby 2.3.1 to download Ruby and install it
+
+![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz-%20sonicpiload4.png)
+<br><br>
+
+## 3) Install The Midiot for Sonic Pi
 ###Once Sonic Pi has loaded, download The Midiot at: https://www.dropbox.com/s/ojx0z6esl2v4znb/MidiloopV1.exe?dl=0
 ###The first you screen is from drop box.  Click on the download button:
 
