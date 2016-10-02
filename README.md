@@ -23,7 +23,7 @@ There is a Wiki that is attached to this project in GitHub that contains user ma
 
 **Link to Introduction Youtube Video Playlist:**   https://www.youtube.com/playlist?list=PLYuaqec79vK7t49cBIiNMy7XIjdaytAnZ
 
-# Midithru - hook up midi controllers & play along with Sonic Pi
+# Midithru - use midi controllers to play along with Sonic Pi
 ## Sub-Project Goal 
 
 # SpiViz - Music Visuzlizer
