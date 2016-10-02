@@ -49,7 +49,9 @@ There is a Wiki that is attached to this project in GitHub that contains user ma
 
 # Inserter - select from code snippet library 
 ## Sub-Project Goal 
-+ Build library of code snippets for:
-++ Synths
-++ Samples
-++ 
++ Build library of code snippets for Synths, Samples, Soundfont Instruments, OpenGL commands, Sonic Pi language elements
++ Create stand file dialog to select snippets from library and copy to clipboard
++ Paste into Sonic Pi using existing clipboard paste functionality
++ Map calling of this Inserter file dialog to function key (F2 in Windows)
+
+## SpiViz Documentation
