@@ -49,9 +49,9 @@ There is a Wiki that is attached to this project in GitHub that contains user ma
 # SpiViz - Music Visuzlizer
 ## Sub-Project Goal 
 + Create a Ruby based language with openGL bindings.
-+ Create a Ruby Server with GL commands that can be called from Sonic Pi.
-+ Create a Ruby Client that runs in Sonic Pi to send commands to GL Server via UDP.
-+ Create a library of GL Primitive Shapes whose appearance can be controlled from Sonic Pi.
++ Create a Ruby Server with Graphics Language (gl) commands that can be called from Sonic Pi.
++ Create a Ruby Client that runs in Sonic Pi to send commands to Ruby openGL Server via UDP.
++ Create a library of Graphic Primitive Shapes whose appearance can be controlled from Sonic Pi.
 + Create ability to move, rotate and scale shapes dynamically from Sonic Pi.
 + Create GLSL Shader bindings for advanced music visualizations.
 
@@ -60,9 +60,9 @@ There is a Wiki that is attached to this project in GitHub that contains user ma
 
 # Inserter - select from code snippet library 
 ## Sub-Project Goal 
-+ Build library of code snippets for Synths, Samples, Soundfont Instruments, OpenGL commands, Sonic Pi language elements
-+ Create stand file dialog to select snippets from library and copy to clipboard
-+ Paste into Sonic Pi using existing clipboard paste functionality
-+ Map calling of this Inserter file dialog to function key (F2 in Windows)
++ Build library of code snippets for Synths, Samples, Soundfont Instruments, OpenGL commands, Sonic Pi language elements, etc.
++ Create standard file dialog to select snippets from library and copy to clipboard.
++ Paste into Sonic Pi using existing clipboard paste functionality.
++ Map calling of this Inserter file dialog to function key (F2 in Windows).
 
-## SpiViz Documentation
+## Inserter Documentation
