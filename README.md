@@ -26,7 +26,7 @@ If the core developers have interest in this code they are invited to pull down 
 + Create Sonic Pi functionality that will allow the ability to play midi using Soundfont instruments, samples & synths.  
 + Be able to pull in midi files, midi tracks or portions/slices of midi tracks that can be used in Sonic Pi live-loops to add another option to complement the sending of individual notes, arrays of notes as currently done in Sonic Pi.  
 + Allows you to pull in these midi "licks" with fragments of melodies much easier than manually entering them in Sonic Pi. 
-+ Create a library of Midisongs and midiloops that can be downloaded to be used in live coding.
++ Create a library of Midisongs and midiloops that can be downloaded for use in live coding.
 
 ## Midiot Documentation
 There is a Wiki that is attached to this project in GitHub that contains user manuals and technical documentation.  Also, a youtube playlist is available with tutorials showing how to use Midiot as a Midi Song Player or integrate it into your **"Live Coding"** performances.
