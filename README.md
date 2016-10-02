@@ -22,9 +22,9 @@ If the core developers have interest in this code they are invited to pull down 
 
 # The Midiot and midiloops Sub-project
 ## Sub-Project Goal  
-+ Be able to seamlessly translate Midi files for use in Sonic Pi that will utilize samples derived from a Soundfont file.  
++ Be able to seamlessly translate Midi files for use in Sonic Pi.  
 + Create Sonic Pi functionality that will allow the ability to play midi using Soundfont instruments, samples & synths.  
-+ Be able to pull in midi files, midi tracks or portions/slices of midi tracks that will can be used in Sonic Pi live-loops to add another option to complement the sending of individual notes, arrays of notes as currently done in Sonic Pi.  
++ Be able to pull in midi files, midi tracks or portions/slices of midi tracks that can be used in Sonic Pi live-loops to add another option to complement the sending of individual notes, arrays of notes as currently done in Sonic Pi.  
 + Allows you to pull in these midi "licks" with fragments of melodies much easier than manually entering them in Sonic Pi. 
 + Create a library of Midisongs and midiloops that can be downloaded to be used in live coding.
 
