@@ -14,6 +14,8 @@ If the core developers have interest in this code they are invited to pull down 
 + Create command in Sonic Pi that allows you to play a note using these Soundfont Instruments.
 + Soundfont Instruments should be able to hold a note for any duration unlike regular Samples.
 + Soundfont Instruments should have the basic sample options available.
++ Soundfont Instruments can be played much like using play for synths.
++ Soundfont Instruments can be played by midithru controllers.
 
 ## Soundfont Instruments Documentation
 
