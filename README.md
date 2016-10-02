@@ -3,7 +3,7 @@ This Hack-SPi Github Project is where I have decided to store all my extensions 
 
 If the core developers have interest in this code they are invited to pull down the code and treat it as prototype code that they can further enhance.  If you are a Sonic Pi User or Hacker like me, you are also encouraged to download it and give it a whirl.  The main project is made up of a number of smaller sub-projects that I have worked.  All the code is contained in this master branch.  The sub-projects include:
 + Soundfont: adds soundfont instruments in Sonic Pi in addition to samples and synths.
-+ Midiot: plays complete midi songs, tracks or slices of tracks to Sonic Pi using soundfont instruments, samples or synths. 
++ Midiot: plays complete midi songs, tracks or slices of tracks in Sonic Pi using soundfont instruments, samples or synths. 
 + Midithru: hook up midiIn controllers to Sonic Pi to play synths, samples and soundfont instruments.
 + SpiViz: a Ruby based openGL language for Sonic Pi to have graphics controlled in liveloops to do music visualization.
 + Insert: inserts instruments, samples, synths, patterns, midiloops, etc code snippets easily into Sonic Pi vis file dialog.
