@@ -1,10 +1,13 @@
 # Hack-SPi Project
 The Hack-SPi Project is where I have decided to store all my extensions and plugins that I have created for Sonic Pi.  It is called Hack-SPi because I primarily developed this for my use.  I don't expect that much of it will show up in the actual Sonic Pi distribution.  I encourage developers to pull down the code and integrate it into Sonic Pi if it is of interest to them.  The main project is made up of a number of smaller sub-projects that I have worked.  All the code is contained in this master branch.  The sub-projects include:
 + Soundfont: adds soundfont instruments in Sonic Pi in addition to samples and synths.
-+ Midiot: plays complete midi songs, tracks or portions of tracks in Sonic Pi using soundfont instuments, samples or synths. 
-+ Midithru: hookd up midiIn controllers to Sonic Pi to play synths, samples and SF instruments.
-+ Visualizer: a Ruby based openGL language for Sonic Pi to have graphics controlled in liveloops.
-+ Insert: inserts instruments, samples, synths, patterns, midiloops, etc code snippets easily into Sonic Pi.
++ Midiot: plays complete midi songs, tracks or portions of tracks in Sonic Pi using soundfont instruments, samples or synths. 
++ Midithru: hook up midiIn controllers to Sonic Pi to play synths, samples and soundfont instruments.
++ SpiViz: a Ruby based openGL language for Sonic Pi to have graphics controlled in liveloops to do music visualization.
++ Insert: inserts instruments, samples, synths, patterns, midiloops, etc code snippets easily into Sonic Pi vis file dialog.
+
+# Soundfont Instruments
+## Sub-Project Goal​
 
 # The Midiot and midiloops Sub-project
 ## Sub-Project Goal  
@@ -20,4 +23,8 @@ There is a Wiki that is attached to this project in GitHub that contains user ma
 
 **Link to Introduction Youtube Video Playlist:**   https://www.youtube.com/playlist?list=PLYuaqec79vK7t49cBIiNMy7XIjdaytAnZ
 
-# Soundfont Instruments
+# Midithru - hook up a midi controller to play along with Sonic Pi.
+
+# SpiViz - Music Visuzlizer
+
+# Inserter - library of synths, samples, instruments, opengl commads
