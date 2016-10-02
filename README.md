@@ -10,8 +10,10 @@ If the core developers have interest in this code they are invited to pull down 
 
 # Soundfont Instruments
 ## Sub-Project Goal
-+ Create conversion program to read soundfont file and for each instrument create a file that is usable by Sonic Pi.
-+ Create command in Sonic Pi that allows you to play a note using the Soundfont Instrument. 
++ Create conversion program to read a soundfont file & for each instrument in it create a file that is used by Sonic Pi.
++ Create command in Sonic Pi that allows you to play a note using these Soundfont Instruments.
++ Soundfont Instruments should be able to hold a note for any duration unlike regular Samples.
++ Soundfont Instruments should have the basic sample options available.
 
 ## Soundfont Instruments Documentation
 
