@@ -14,7 +14,8 @@ The Hack-SPi Project is where I have decided to store all my extensions and plug
 + Be able to seamlessly translate Midi files for use in Sonic Pi that will utilize samples derived from a Soundfont file.  
 + Create Sonic Pi functionality that will allow the ability to utilize Soundfont instruments, samples and synths.  
 + Be able to pull in midi files, midi tracks or portions/slices of midi tracks that will can be used in Sonic Pi live-loops to add another option to complement the sending individual notes, arrays of notes as currently done in Sonic Pi.  
-+ Allow you pull in these midi "licks" with fragments of melodies much easier than manually entering them in Sonic Pi as you do today as notes to play and sleep commands.   
++ Allow you pull in these midi "licks" with fragments of melodies much easier than manually entering them in Sonic Pi as you do today as notes to play and sleep commands. 
++ Create a library of Midisongs and midiloops that can be downloaded to be used in live coding.
 
 ## Midiot Documentation
 There is a Wiki that is attached to this project in GitHub that contains user manuals and technical documentation.  Also, a youtube playlist is available with tutorials showing how to use Midiot as a Midi Song Player or integrate it into your **"Live Coding"** performances.
@@ -24,10 +25,31 @@ There is a Wiki that is attached to this project in GitHub that contains user ma
 **Link to Introduction Youtube Video Playlist:**   https://www.youtube.com/playlist?list=PLYuaqec79vK7t49cBIiNMy7XIjdaytAnZ
 
 # Midithru - use midi controllers to play along with Sonic Pi
-## Sub-Project Goal 
+## Sub-Project Goal
++ Hook up 1 or more midi controllers with low latency.
++ Map midi controllers to Soundfont Instrument, sample or synth.
++ Sonic Pi plays mapped instrument based on the key pressed.
++ Midi Controller commands include keys, buttons & knobs.
++ Midi Controller can control more than note played (i.e. cutoff parameters, slide values, etc).
+
+## Midithru Documentation
+
 
 # SpiViz - Music Visuzlizer
 ## Sub-Project Goal 
++ Create a Ruby based language with openGL bindings.
++ Create a Ruby Server with GL commands that can be called from Sonic Pi.
++ Create a Ruby Client that runs in Sonic Pi to send commands to GL Server via UDP.
++ Create a library of GL Primitive Shapes whose appearance can be controlled from Sonic Pi.
++ Create ability to move, rotate and scale shapes dynamically from Sonic Pi.
++ Create GLSL Shader bindings for advanced music visualizations.
+
+## SpiViz Documentation
+
 
 # Inserter - select from code snippet library 
 ## Sub-Project Goal 
++ Build library of code snippets for:
+++ Synths
+++ Samples
+++ 
