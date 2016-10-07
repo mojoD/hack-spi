@@ -1,7 +1,5 @@
 # History 
 
-**V2.0 - 'Basically Better'**, 16 October, 2016
-
 ## Version 2.0 - 'Basically Better'
 + Sunday 16th, October, 2016 
 
@@ -20,8 +18,6 @@ The major components of Release 2 include:
 
 
 
-
-**V1.0 - 'Arduous Amore'**, 12 August, 2016
 
 ## Version 1.0 - 'Arduous Amore'
 + Sunday 12th, August, 2016
