@@ -1,5 +1,21 @@
 # History 
 
+**V2.0 - 'Basically Better'**, 16 October, 2016
+
+## Version 2.0 - 'Basically Better'
++ Sunday 16th, October, 2016 
+
+**"A True Working Solution"**
+
+The major components of Release 2 include:
++ sf2spi.rb - program to convert soundfont files to .pisf files that allow you to play soundfont instruments in Sonic Pi
++ midi2spi.rb - program to convert midi files to midiloop (.mloop) files & generate Ruby code to play them in Sonic Pi 
++ MidiotBaseProgram.rb - ruby code is launched by Sonic Pi that actually plays the mloop files in Sonic Pi
+
+
+
+
+
 **V1.0 - 'Arduous Amore'**, 12 August, 2016
 
 ## Version 1.0 - 'Arduous Amore'
@@ -21,15 +37,3 @@ MidiotBaseProgram Functionality:
 + Play portions of midiloops by slicing the input and looping the sliced result
 + Transpose the midiloop 
 
-**V2.0 - 'Basically Better'**, 16 October, 2016
-
-## Version 2.0 - 'Basically Better'
-
-+ Sunday 16th, October, 2016 
-
-**"A True Working Solution"**
-
-The major components of Release 2 include:
-+ sf2spi.rb - program to convert soundfont files to .pisf files that allow you to play soundfont instruments in Sonic Pi
-+ midi2spi.rb - program to convert midi files to midiloop (.mloop) files & generate Ruby code to play them in Sonic Pi 
-+ MidiotBaseProgram.rb - ruby code is launched by Sonic Pi that actually plays the mloop files in Sonic Pi
