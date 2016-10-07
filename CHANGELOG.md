@@ -8,9 +8,11 @@
 **"A True Working Solution"**
 
 The major components of Release 2 include:
-+ sf2spi.rb - program to convert soundfont files to .pisf files that allow you to play soundfont instruments in Sonic Pi
-+ midi2spi.rb - program to convert midi files to midiloop (.mloop) files & generate Ruby code to play them in Sonic Pi 
-+ MidiotBaseProgram.rb - ruby code is launched by Sonic Pi that actually plays the mloop files in Sonic Pi
++ sf2spi.rb - converts soundfont files to .pisf files that allow you to play soundfont instruments in Sonic Pi
++ midi2spi.rb - converts midi files to midiloop (.mloop) files & generate Ruby code to play them in Sonic Pi 
++ MidiotBaseProgram.rb - code that is launched by Sonic Pi to actually play the mloop files in Sonic Pi
++ init.rb - installs "plugins" for Sonic Pi
++ 
 
 
 
