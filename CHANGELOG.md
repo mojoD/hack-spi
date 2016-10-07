@@ -10,10 +10,13 @@
 The major components of Release 2 include:
 + sf2spi.rb - converts soundfont files to .pisf files that allow you to play soundfont instruments in Sonic Pi
 + midi2spi.rb - converts midi files to midiloop (.mloop) files & generate Ruby code to play them in Sonic Pi 
-+ MidiotBaseProgram.rb - code that is launched by Sonic Pi to actually play the mloop files in Sonic Pi
++ MidiotBaseProgram.rb - Sonic Pi plugin that plays the mloop files and soundfont instruments
++ midithruServer.rb - connects midi controller devices to Sonic Pi
++ midithruClient.rb - Sonic Pi plugin that consumes the incoming midi from the midi controller and plays synths and samples   
++ SpiVizServer.rb - Sonic Pi plugin that sends graphics language (gl) commands to the new Sonic Pi Visualizer
++ SpiViz.rb - opengl based music visualizer that is controlled from Sonic Pi
 + init.rb - installs "plugins" for Sonic Pi
-+ 
-
++ getclips.rb - helper code that allows you to paste code snippets into Sonic Pi via a standard file dialog
 
 
 
