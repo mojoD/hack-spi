@@ -6,7 +6,7 @@ If the core developers have interest in this code they are invited to pull down 
 + Midiot: plays complete midi songs, tracks or slices of tracks in Sonic Pi using soundfont instruments, samples or synths. 
 + Midithru: hook up midiIn controllers to Sonic Pi to play synths, samples and soundfont instruments.
 + SpiViz: a Ruby based openGL language for Sonic Pi to have graphics controlled in liveloops to do music visualization.
-+ Insert: inserts instruments, samples, synths, patterns, midiloops, etc code snippets easily into Sonic Pi vis file dialog.
++ GetClips: inserts instruments, samples, synths, patterns, midiloops, etc code snippets easily into Sonic Pi vis file dialog.
 
 # Soundfont Instruments
 ## Sub-Project Goal
@@ -58,11 +58,11 @@ There is a Wiki that is attached to this project in GitHub that contains user ma
 ## SpiViz Documentation
 
 
-# Inserter - select from code snippet library 
+# GetClips - select from code snippet library 
 ## Sub-Project Goal 
 + Build library of code snippets for Synths, Samples, Soundfont Instruments, OpenGL commands, Sonic Pi language elements, etc.
 + Create standard file dialog to select snippets from library and copy to clipboard.
 + Paste into Sonic Pi using existing clipboard paste functionality.
-+ Map calling of this Inserter file dialog to function key (F2 in Windows).
++ Map calling of this GetClips file dialog to function key (F2 in Windows).
 
-## Inserter Documentation
+## GetClips Documentation
