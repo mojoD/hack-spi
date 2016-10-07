@@ -16,8 +16,12 @@ The major components of Release 2 include:
 + init.rb - installs "plugins" for Sonic Pi
 + getclips.rb - helper code that allows you to paste code snippets into Sonic Pi via a standard file dialog
 
-
-
+New functionality added in Version 2.0
++ Play synths, samples and soundfont instruments in Sonic Pi using a midi controller keyboard
++ OpenGl visualizer that is controlled using commands in Sonic Pi Live Loops
++ Plugin/extension loading via init
++ A library of instruments, graphic visualizations and other snippets accessed via a hotkey using GetClips dialog
++ An improved Midiot experience that includes better control from within Sonic Pi
 
 ## Version 1.0 - 'Arduous Amore'
 + Sunday 12th, August, 2016
