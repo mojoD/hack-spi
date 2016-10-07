@@ -9,4 +9,4 @@ Documentation is in the github Wiki:  https://github.com/mojoD/midiloops/wiki
 Youtube Channel Playlist for demo and learning videos:  
 https://www.youtube.com/playlist?list=PLYuaqec79vK7t49cBIiNMy7XIjdaytAnZ
 
-Tweet the Developer:  @mojodallas
+Tweet the Developer:  @mojoDFW
