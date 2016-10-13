@@ -34,9 +34,8 @@
 ###Once Sonic Pi has loaded, download The Midiot at:
 
 <br>
-https://www.dropbox.com/s/ojx0z6esl2v4znb/MidiloopV1.exe?dl=0
-<br><br>
-
+https://www.dropbox.com/s/0cn7cqzj6p65js1/HackSpiV0.zip?dl=0
+<br>
 ###The first screen you see is from drop box.  Click on the download button:
 
 ![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%20P1.PNG)
