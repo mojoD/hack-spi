@@ -34,7 +34,7 @@
 ###Once Sonic Pi has loaded, download The Midiot at:
 
 <br>
-https://www.dropbox.com/s/n181k9fae28t3sr/HackSpiV2.exe?dl=0
+https://www.dropbox.com/s/wsegxjwueqsu3po/HackSpiV2.exe?dl=0
 <br>
 ###The first screen you see is from drop box.  Click on the download button:
 
@@ -57,24 +57,23 @@ https://www.dropbox.com/s/n181k9fae28t3sr/HackSpiV2.exe?dl=0
 <br><br>
 
 ###It will download and run it.  A dialog box will pop up for you to identify where you want it to go.
-![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%207.PNG)
+![Install](https://github.com/mojoD/hack-spi/blob/master/images/dropbox2.png)
 <br><br>
 
-###The best place to put it is in your user home directory, so, just delete the Downloads portion and hit Extract.
-![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%208.PNG)
+###The best place to put it is in the .Sonic-Pi directory that is in your user home directory.
+![Install](https://github.com/mojoD/hack-spi/blob/master/images/dropbox3.png)
 <br><br>
 
-###Now find the directory and open the MidiloopV1 directory.
-![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%209.PNG)
+###Install it into the Sonic Pi Directory.
+![Install](https://github.com/mojoD/hack-spi/blob/master/images/dropbox4.png)
 <br><br>
 
-
-###This will be MidiloopV1 directory.  Select the RunOneTime batch file to complete the installation.
-![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%2010.PNG)
+###Now open the HackSpiV2 directory that is under the .sonic-pi directory.  Select the RunOneTime batch file to complete the installation.
+![Install](https://github.com/mojoD/hack-spi/blob/master/images/dropbox5.png)
 <br><br>
 
 ### This should have installed everything and you should ready to go play with 
-#The Midiot for Sonic Pi#
+#HackSpiV2 for Sonic Pi#
 
 
 
