@@ -34,7 +34,7 @@
 ###Once Sonic Pi has loaded, download The Midiot at:
 
 <br>
-https://www.dropbox.com/s/0cn7cqzj6p65js1/HackSpiV0.zip?dl=0
+https://www.dropbox.com/s/n181k9fae28t3sr/HackSpiV2.exe?dl=0
 <br>
 ###The first screen you see is from drop box.  Click on the download button:
 
