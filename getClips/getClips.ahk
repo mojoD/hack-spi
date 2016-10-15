@@ -1,0 +1,1 @@
+F2:: Run ruby "C:\Users\Michael Sutton\.sonic-pi\liveloops\getClips.rb"
