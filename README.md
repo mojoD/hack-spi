@@ -19,6 +19,11 @@ If the core developers have interest in this code they are invited to pull down 
 
 ## Soundfont Instruments Documentation
 
+There is a Wiki that is attached to this project in GitHub that contains user manuals and technical documentation. Also, a youtube playlist is available with tutorials showing how to use Midiot as a Midi Song Player or integrate it into your "Live Coding" performances.
+
+Go to the Wiki: https://github.com/mojoD/hack-spi/wiki/2)-Soundfonts-and-sf2sonicpi
+
+Link to Introduction Youtube Video Playlist: https://www.youtube.com/playlist?list=PLYuaqec79vK7t49cBIiNMy7XIjdaytAnZ
 
 # The Midiot and midiloops Sub-project
 ## Sub-Project Goal  
@@ -31,7 +36,8 @@ If the core developers have interest in this code they are invited to pull down 
 ## Midiot Documentation
 There is a Wiki that is attached to this project in GitHub that contains user manuals and technical documentation.  Also, a youtube playlist is available with tutorials showing how to use Midiot as a Midi Song Player or integrate it into your **"Live Coding"** performances.
 
-**Go to the Wiki:**  https://github.com/mojoD/hack-spi/wiki
+**Go to the Wiki:**  https://github.com/mojoD/hack-spi/wiki/3)-Midi-and-midi2sonicpi
+                     https://github.com/mojoD/hack-spi/wiki/4)-Using-Midiot-in-Sonic-Pi
 
 **Link to Introduction Youtube Video Playlist:**   https://www.youtube.com/playlist?list=PLYuaqec79vK7t49cBIiNMy7XIjdaytAnZ
 
@@ -45,6 +51,11 @@ There is a Wiki that is attached to this project in GitHub that contains user ma
 
 ## Midithru Documentation
 
+There is a Wiki that is attached to this project in GitHub that contains user manuals and technical documentation. Also, a youtube playlist is available with tutorials showing how to use Midiot as a Midi Song Player or integrate it into your "Live Coding" performances.
+
+Go to the Wiki: https://github.com/mojoD/hack-spi/wiki/5)-Using-Midithru-in-Sonic-Pi
+
+Link to Introduction Youtube Video Playlist: https://www.youtube.com/playlist?list=PLYuaqec79vK7t49cBIiNMy7XIjdaytAnZ
 
 # SpiViz - Music Visuzlizer
 ## Sub-Project Goal 
@@ -57,6 +68,13 @@ There is a Wiki that is attached to this project in GitHub that contains user ma
 
 ## SpiViz Documentation
 
+There is a Wiki that is attached to this project in GitHub that contains user manuals and technical documentation. Also, a youtube playlist is available with tutorials showing how to use Midiot as a Midi Song Player or integrate it into your "Live Coding" performances.
+
+Go to the Wiki: https://github.com/mojoD/hack-spi/wiki/7)-SpiViz-Music-Visualization
+                https://github.com/mojoD/hack-spi/wiki/8-)-SpiViz-Command-Reference
+
+Link to Introduction Youtube Video Playlist: https://www.youtube.com/playlist?list=PLYuaqec79vK7t49cBIiNMy7XIjdaytAnZ
+
 
 # GetClips - select from code snippet library 
 ## Sub-Project Goal 
@@ -66,3 +84,10 @@ There is a Wiki that is attached to this project in GitHub that contains user ma
 + Map calling of this GetClips file dialog to function key (F2 in Windows).
 
 ## GetClips Documentation
+
+There is a Wiki that is attached to this project in GitHub that contains user manuals and technical documentation. Also, a youtube playlist is available with tutorials showing how to use Midiot as a Midi Song Player or integrate it into your "Live Coding" performances.
+
+Go to the Wiki: https://github.com/mojoD/hack-spi/wiki/6)-Using-GetClips
+
+Link to Introduction Youtube Video Playlist: https://www.youtube.com/playlist?list=PLYuaqec79vK7t49cBIiNMy7XIjdaytAnZ
+
