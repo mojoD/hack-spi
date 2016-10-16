@@ -36,8 +36,9 @@ Link to Introduction Youtube Video Playlist: https://www.youtube.com/playlist?li
 ## Midiot Documentation
 There is a Wiki that is attached to this project in GitHub that contains user manuals and technical documentation.  Also, a youtube playlist is available with tutorials showing how to use Midiot as a Midi Song Player or integrate it into your **"Live Coding"** performances.
 
-**Go to the Wiki:**  https://github.com/mojoD/hack-spi/wiki/3)-Midi-and-midi2sonicpi
-                     https://github.com/mojoD/hack-spi/wiki/4)-Using-Midiot-in-Sonic-Pi
+**Go to the Wiki:**  
++ https://github.com/mojoD/hack-spi/wiki/3)-Midi-and-midi2sonicpi
++ https://github.com/mojoD/hack-spi/wiki/4)-Using-Midiot-in-Sonic-Pi
 
 **Link to Introduction Youtube Video Playlist:**   https://www.youtube.com/playlist?list=PLYuaqec79vK7t49cBIiNMy7XIjdaytAnZ
 
@@ -70,8 +71,9 @@ Link to Introduction Youtube Video Playlist: https://www.youtube.com/playlist?li
 
 There is a Wiki that is attached to this project in GitHub that contains user manuals and technical documentation. Also, a youtube playlist is available with tutorials showing how to use Midiot as a Midi Song Player or integrate it into your "Live Coding" performances.
 
-Go to the Wiki: https://github.com/mojoD/hack-spi/wiki/7)-SpiViz-Music-Visualization
-                https://github.com/mojoD/hack-spi/wiki/8-)-SpiViz-Command-Reference
+Go to the Wiki: 
++ https://github.com/mojoD/hack-spi/wiki/7)-SpiViz-Music-Visualization
++ https://github.com/mojoD/hack-spi/wiki/8-)-SpiViz-Command-Reference
 
 Link to Introduction Youtube Video Playlist: https://www.youtube.com/playlist?list=PLYuaqec79vK7t49cBIiNMy7XIjdaytAnZ
 
