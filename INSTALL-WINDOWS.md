@@ -36,6 +36,8 @@
 <br>
 https://www.dropbox.com/s/gyw03lbloud64rw/HackSpiV2.exe?dl=0
 <br>
+https://www.dropbox.com/s/6tbv5yv9cdw2y5c/sp211-win-beta4.zip?dl=0
+<br>
 ###The first screen you see is from drop box.  Click on the download button:
 
 ![Install](https://github.com/mojoD/midiloops/blob/master/images/zzz%20-%20P1.PNG)
