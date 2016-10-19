@@ -34,7 +34,7 @@
 ###Once Sonic Pi has loaded, download The Midiot at:
 
 <br>
-https://www.dropbox.com/s/hheu5nf1o22jxsh/HackSpiV2.exe?dl=0
+https://www.dropbox.com/s/3z6wqhar12brfv4/HackSpiV2.exe?dl=0
 <br>
 https://www.dropbox.com/s/6tbv5yv9cdw2y5c/sp211-win-beta4.zip?dl=0
 <br>
