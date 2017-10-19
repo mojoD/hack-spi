@@ -1,0 +1,788 @@
+from PSPApp import *
+
+def ScriptProperties():
+    return {
+        'Author': u'',
+        'Copyright': u'',
+        'Description': u'',
+        'Host': u'PaintShop Pro',
+        'Host Version': u'19.00'
+        }
+
+def Do(Environment):
+    # EnableOptimizedScriptUndo
+    App.Do( Environment, 'EnableOptimizedScriptUndo', {
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+# Selection 1 - West
+    App.Do( Environment, 'Selection', {
+            'General': {
+                'Mode': App.Constants.SelectionOperation.Replace, 
+                'Antialias': True, 
+                'Feather': 0
+                }, 
+            'SelectionShape': App.Constants.SelectionShape.Rectangle, 
+            'Start': (4097,2048), 
+            'End': (6144,4096), 
+            'SelectionStyle': App.Constants.SelectionStyle.Normal, 
+            'SelectionFixedSize': (128,128), 
+            'SelectionFixedRatio': (1,1), 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+    
+    # Copy
+    App.Do( Environment, 'Copy', {
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # File New
+    App.Do( Environment, 'NewFile', {
+            'Width': 12288, 
+            'Height': 2048, 
+            'ColorDepth': App.Constants.Colordepth.SixteenMillionColor, 
+            'DimensionUnits': App.Constants.DimensionType.Pixels, 
+            'ResolutionUnits': App.Constants.ResolutionUnits.PixelsPerIn, 
+            'Resolution': 200, 
+            'FillMaterial': {
+                'Color': (255,255,255), 
+                'Pattern': None, 
+                'Gradient': None, 
+                'Texture': None, 
+                'Art': None
+                }, 
+            'Transparent': False, 
+            'LayerType': App.Constants.NewLayerType.Raster, 
+            'ArtMediaTexture': {
+                'Category': u'Art Media', 
+                'Name': u'Corel_15_013', 
+                'EnableFill': True, 
+                'FillColor': (255,255,255)
+                }, 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # SelectDocument
+    App.Do( Environment, 'SelectDocument', {
+            'SelectedImage': 0, 
+            'Strict': False, 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # Selection
+    App.Do( Environment, 'Selection', {
+            'General': {
+                'Mode': App.Constants.SelectionOperation.Replace, 
+                'Antialias': True, 
+                'Feather': 0
+                }, 
+            'SelectionShape': App.Constants.SelectionShape.Rectangle, 
+            'Start': (0,0), 
+            'End': (2048,2048), 
+            'SelectionStyle': App.Constants.SelectionStyle.Normal, 
+            'SelectionFixedSize': (128,128), 
+            'SelectionFixedRatio': (1,1), 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # PasteIntoSelection
+    App.Do( Environment, 'PasteIntoSelection', {
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # PrepareForTool
+    App.Do( Environment, 'PrepareForTool', {
+            'Tool': u'Pick', 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # Pick
+    App.Do( Environment, 'Pick', {
+            'Type': App.Constants.ObjectSelection.Select, 
+            'X': 0, 
+            'Y': 0, 
+            'Width': 1, 
+            'Height': 1, 
+            'Group': True, 
+            'Handle1': (2048,2048), 
+            'Handle2': (0,2048), 
+            'Handle3': (0,0), 
+            'Handle4': (2048,0), 
+            'Pivot': (1024,1024), 
+            'EarlyX4Script': False, 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # SelectDocument
+    App.Do( Environment, 'SelectDocument', {
+            'SelectedImage': -1, 
+            'Strict': False, 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+# Selection 2 - North
+    App.Do( Environment, 'Selection', {
+            'General': {
+                'Mode': App.Constants.SelectionOperation.Replace, 
+                'Antialias': True, 
+                'Feather': 0
+                }, 
+            'SelectionShape': App.Constants.SelectionShape.Rectangle, 
+            'Start': (2049,0), 
+            'End': (4096,2048), 
+            'SelectionStyle': App.Constants.SelectionStyle.Normal, 
+            'SelectionFixedSize': (128,128), 
+            'SelectionFixedRatio': (1,1), 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # Copy
+    App.Do( Environment, 'Copy', {
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # SelectDocument
+    App.Do( Environment, 'SelectDocument', {
+            'SelectedImage': 1, 
+            'Strict': False, 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # Selection
+    App.Do( Environment, 'Selection', {
+            'General': {
+                'Mode': App.Constants.SelectionOperation.Replace, 
+                'Antialias': True, 
+                'Feather': 0
+                }, 
+            'SelectionShape': App.Constants.SelectionShape.Rectangle, 
+            'Start': (8192,0), 
+            'End': (10240,2048), 
+            'SelectionStyle': App.Constants.SelectionStyle.Normal, 
+            'SelectionFixedSize': (128,128), 
+            'SelectionFixedRatio': (1,1), 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # PasteIntoSelection
+    App.Do( Environment, 'PasteIntoSelection', {
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+    # SelectDocument
+    App.Do( Environment, 'SelectDocument', {
+            'SelectedImage': -1, 
+            'Strict': False, 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+# Selection 3 - Down
+    App.Do( Environment, 'Selection', {
+            'General': {
+                'Mode': App.Constants.SelectionOperation.Replace, 
+                'Antialias': True, 
+                'Feather': 0
+                }, 
+            'SelectionShape': App.Constants.SelectionShape.Rectangle, 
+            'Start': (2049,2048), 
+            'End': (4096,4096), 
+            'SelectionStyle': App.Constants.SelectionStyle.Normal, 
+            'SelectionFixedSize': (128,128), 
+            'SelectionFixedRatio': (1,1), 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # Copy
+    App.Do( Environment, 'Copy', {
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # SelectDocument
+    App.Do( Environment, 'SelectDocument', {
+            'SelectedImage': 1, 
+            'Strict': False, 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # Selection
+    App.Do( Environment, 'Selection', {
+            'General': {
+                'Mode': App.Constants.SelectionOperation.Replace, 
+                'Antialias': True, 
+                'Feather': 0
+                }, 
+            'SelectionShape': App.Constants.SelectionShape.Rectangle, 
+            'Start': (6144,0), 
+            'End': (8192,2048), 
+            'SelectionStyle': App.Constants.SelectionStyle.Normal, 
+            'SelectionFixedSize': (128,128), 
+            'SelectionFixedRatio': (1,1), 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # PasteIntoSelection
+    App.Do( Environment, 'PasteIntoSelection', {
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # SelectDocument
+    App.Do( Environment, 'SelectDocument', {
+            'SelectedImage': -1, 
+            'Strict': False, 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+# Selection 4 - South
+    App.Do( Environment, 'Selection', {
+            'General': {
+                'Mode': App.Constants.SelectionOperation.Replace, 
+                'Antialias': True, 
+                'Feather': 0
+                }, 
+            'SelectionShape': App.Constants.SelectionShape.Rectangle, 
+            'Start': (2049,4096), 
+            'End': (4096,6144), 
+            'SelectionStyle': App.Constants.SelectionStyle.Normal, 
+            'SelectionFixedSize': (128,128), 
+            'SelectionFixedRatio': (1,1), 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # Copy
+    App.Do( Environment, 'Copy', {
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # SelectDocument
+    App.Do( Environment, 'SelectDocument', {
+            'SelectedImage': 1, 
+            'Strict': False, 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # Selection
+    App.Do( Environment, 'Selection', {
+            'General': {
+                'Mode': App.Constants.SelectionOperation.Replace, 
+                'Antialias': True, 
+                'Feather': 0
+                }, 
+            'SelectionShape': App.Constants.SelectionShape.Rectangle, 
+            'Start': (10240,0), 
+            'End': (12288,2048), 
+            'SelectionStyle': App.Constants.SelectionStyle.Normal, 
+            'SelectionFixedSize': (128,128), 
+            'SelectionFixedRatio': (1,1), 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # PasteIntoSelection
+    App.Do( Environment, 'PasteIntoSelection', {
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # PrepareForTool
+    App.Do( Environment, 'PrepareForTool', {
+            'Tool': u'Pick', 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # Pick
+    App.Do( Environment, 'Pick', {
+            'Type': App.Constants.ObjectSelection.Select, 
+            'X': 0, 
+            'Y': 0, 
+            'Width': 1, 
+            'Height': 1, 
+            'Group': True, 
+            'Handle1': (12288,0), 
+            'Handle2': (12288,2048), 
+            'Handle3': (10240,2048), 
+            'Handle4': (10240,0), 
+            'Pivot': (11264,1024), 
+            'EarlyX4Script': False, 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # SelectDocument
+    App.Do( Environment, 'SelectDocument', {
+            'SelectedImage': -1, 
+            'Strict': False, 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+# Selection 5 - Up
+    App.Do( Environment, 'Selection', {
+            'General': {
+                'Mode': App.Constants.SelectionOperation.Replace, 
+                'Antialias': True, 
+                'Feather': 0
+                }, 
+            'SelectionShape': App.Constants.SelectionShape.Rectangle, 
+            'Start': (2048,6144), 
+            'End': (4096,8192), 
+            'SelectionStyle': App.Constants.SelectionStyle.Normal, 
+            'SelectionFixedSize': (128,128), 
+            'SelectionFixedRatio': (1,1), 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # Copy
+    App.Do( Environment, 'Copy', {
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # SelectDocument
+    App.Do( Environment, 'SelectDocument', {
+            'SelectedImage': 1, 
+            'Strict': False, 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # Selection
+    App.Do( Environment, 'Selection', {
+            'General': {
+                'Mode': App.Constants.SelectionOperation.Replace, 
+                'Antialias': True, 
+                'Feather': 0
+                }, 
+            'SelectionShape': App.Constants.SelectionShape.Rectangle, 
+            'Start': (4096,0), 
+            'End': (6144,2048), 
+            'SelectionStyle': App.Constants.SelectionStyle.Normal, 
+            'SelectionFixedSize': (128,128), 
+            'SelectionFixedRatio': (1,1), 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # PasteIntoSelection
+    App.Do( Environment, 'PasteIntoSelection', {
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # SelectDocument
+    App.Do( Environment, 'SelectDocument', {
+            'SelectedImage': -1, 
+            'Strict': False, 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+# Selection 6 - East                    
+    App.Do( Environment, 'Selection', {
+            'General': {
+                'Mode': App.Constants.SelectionOperation.Replace, 
+                'Antialias': True, 
+                'Feather': 0
+                }, 
+            'SelectionShape': App.Constants.SelectionShape.Rectangle, 
+            'Start': (0,2048), 
+            'End': (2048,4096), 
+            'SelectionStyle': App.Constants.SelectionStyle.Normal, 
+            'SelectionFixedSize': (128,128), 
+            'SelectionFixedRatio': (1,1), 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # Copy
+    App.Do( Environment, 'Copy', {
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # SelectDocument
+    App.Do( Environment, 'SelectDocument', {
+            'SelectedImage': 1, 
+            'Strict': False, 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # Selection
+    App.Do( Environment, 'Selection', {
+            'General': {
+                'Mode': App.Constants.SelectionOperation.Replace, 
+                'Antialias': True, 
+                'Feather': 0
+                }, 
+            'SelectionShape': App.Constants.SelectionShape.Rectangle, 
+            'Start': (2048,0), 
+            'End': (4096,2048), 
+            'SelectionStyle': App.Constants.SelectionStyle.Normal, 
+            'SelectionFixedSize': (128,128), 
+            'SelectionFixedRatio': (1,1), 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # PasteIntoSelection
+    App.Do( Environment, 'PasteIntoSelection', {
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+
+    # EnableOptimizedScriptUndo
+    App.Do( Environment, 'EnableOptimizedScriptUndo', {
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # Pick
+    App.Do( Environment, 'Pick', {
+            'Type': App.Constants.ObjectSelection.Select, 
+            'X': 0, 
+            'Y': 0, 
+            'Width': 1, 
+            'Height': 1, 
+            'Group': True, 
+            'Handle1': (2048,0), 
+            'Handle2': (4096,0), 
+            'Handle3': (4096,2048), 
+            'Handle4': (2048,2048), 
+            'Pivot': (3072,1240), 
+            'EarlyX4Script': False, 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # LayerMergeAll
+    App.Do( Environment, 'LayerMergeAll', {
+            'WorkingMode': 0, 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+# Fix Left Sky
+    # PrepareForTool
+    App.Do( Environment, 'PrepareForTool', {
+            'Tool': u'Pick', 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # Selection
+    App.Do( Environment, 'Selection', {
+            'General': {
+                'Mode': App.Constants.SelectionOperation.Replace, 
+                'Antialias': True, 
+                'Feather': 0
+                }, 
+            'SelectionShape': App.Constants.SelectionShape.Rectangle, 
+            'Start': (0,0), 
+            'End': (4096,2048), 
+            'SelectionStyle': App.Constants.SelectionStyle.Normal, 
+            'SelectionFixedSize': (128,128), 
+            'SelectionFixedRatio': (1,1), 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # SelectLayer
+    App.Do( Environment, 'SelectLayer', {
+            'Path': (0,-1,[],False), 
+            'AddToVectorSelection': True, 
+            'AddToVectorSelectionMode': App.Constants.ObjectSelection.AddToSelection, 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # PrepareForTool
+    App.Do( Environment, 'PrepareForTool', {
+            'Tool': u'Pick', 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # Pick
+    App.Do( Environment, 'Pick', {
+            'Type': App.Constants.ObjectSelection.Select, 
+            'X': 0, 
+            'Y': 0, 
+            'Width': 1, 
+            'Height': 1, 
+            'Group': True, 
+            'Handle1': (0,2495), 
+            'Handle2': (0,0), 
+            'Handle3': (4096,0), 
+            'Handle4': (4096,2495), 
+            'Pivot': (2048,1240), 
+            'EarlyX4Script': False, 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+# Fix Right Sky
+    # PrepareForTool
+    App.Do( Environment, 'PrepareForTool', {
+            'Tool': u'Selection', 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # Selection
+    App.Do( Environment, 'Selection', {
+            'General': {
+                'Mode': App.Constants.SelectionOperation.Replace, 
+                'Antialias': True, 
+                'Feather': 0
+                }, 
+            'SelectionShape': App.Constants.SelectionShape.Rectangle, 
+            'Start': (8192,0), 
+            'End': (12288,2048), 
+            'SelectionStyle': App.Constants.SelectionStyle.Normal, 
+            'SelectionFixedSize': (128,128), 
+            'SelectionFixedRatio': (1,1), 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # SelectLayer
+    App.Do( Environment, 'SelectLayer', {
+            'Path': (0,-1,[],False), 
+            'AddToVectorSelection': True, 
+            'AddToVectorSelectionMode': App.Constants.ObjectSelection.AddToSelection, 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # PrepareForTool
+    App.Do( Environment, 'PrepareForTool', {
+            'Tool': u'Pick', 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # EnableOptimizedScriptUndo
+    App.Do( Environment, 'EnableOptimizedScriptUndo', {
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # Pick
+    App.Do( Environment, 'Pick', {
+            'Type': App.Constants.ObjectSelection.Select, 
+            'X': 0, 
+            'Y': 0, 
+            'Width': 1, 
+            'Height': 1, 
+            'Group': True, 
+            'Handle1': (8192,2495), 
+            'Handle2': (8192,0), 
+            'Handle3': (12288,0), 
+            'Handle4': (12288,2495), 
+            'Pivot': (10204,1240), 
+            'EarlyX4Script': False, 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
+
+    # LayerMergeAll
+    App.Do( Environment, 'LayerMergeAll', {
+            'WorkingMode': 0, 
+            'GeneralSettings': {
+                'ExecutionMode': App.Constants.ExecutionMode.Default, 
+                'AutoActionMode': App.Constants.AutoActionMode.Match, 
+                'Version': ((19,0,0),1)
+                }
+            })
